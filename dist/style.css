@@ -44,7 +44,7 @@ h6 {
   isolation: isolate;
 }
 
-.wrapper {
+.main__card {
   width: min(100% - 32px, 37.5rem);
   margin-inline: auto;
 }
@@ -96,6 +96,13 @@ p {
   font-weight: 400;
 }
 
+.faq__container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  align-self: stretch;
+}
+
 body {
   background-color: var(--color-lightPink);
   background-image: url("../../assets/images/background-pattern-desktop.svg");
@@ -107,15 +114,6 @@ body {
   body {
     background-image: url("../../assets/images/background-pattern-mobile.svg");
   }
-}
-
-.main__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  flex-shrink: 0;
 }
 
 .main__card {
