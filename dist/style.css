@@ -44,6 +44,12 @@ h6 {
   isolation: isolate;
 }
 
+.wrapper {
+  outline: 2px solid red;
+  width: min(100% - 32px, 1110px);
+  margin-inline: auto;
+}
+
 :root {
   --color-white: hsl(0, 0%, 100%);
   --color-lightPink: hsl(275, 100%, 97%);
@@ -72,14 +78,21 @@ h6 {
   font-weight: 700;
   src: url("../../assets/fonts/work-sans-v19-latin-700.woff2") format("woff2");
 }
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
 h1 {
   font-size: clamp(2rem, 1.4718309859rem + 2.2535211268vw, 3.5rem);
+  font-weight: 700;
 }
 
 h2 {
   font-size: clamp(1rem, 0.9559859155rem + 0.1877934272vw, 1.125rem);
+  font-weight: 600;
 }
 
 p {
   font-size: clamp(0.875rem, 0.8309859155rem + 0.1877934272vw, 1rem);
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

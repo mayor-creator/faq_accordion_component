@@ -43,3 +43,9 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+.wrapper {
+  outline: 2px solid red;
+  width: min(100% - 32px, 1110px);
+  margin-inline: auto;
+}
