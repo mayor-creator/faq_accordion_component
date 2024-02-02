@@ -6,5 +6,7 @@ for (let i = 0; i < questions.length; i++) {
 	questions[i].addEventListener("click", function () {
 		let image = questions[i].lastElementChild;
 		image.src = "../assets/images/icon-minus.svg";
+		let displayAnswer = questions[i].nextElementSibling;
+		displayAnswer.stylsetDefault();
 	});
 }
