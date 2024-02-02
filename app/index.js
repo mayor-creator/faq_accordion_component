@@ -1,12 +1,10 @@
 let icons = document.querySelectorAll(".icons");
 let active = document.querySelectorAll(".active");
+let questions = document.querySelectorAll(".question");
 
-function changeImage() {
-	for (let index = 0; index < icons.length; index++) {
-		icons[index].addEventListener("click", function () {
-			// Set image src
-			let image = icons[index];
-			image.src = "../assets/images/icon-minus.svg";
-		});
-	}
+for (let i = 0; i < questions.length; i++) {
+	questions[i].addEventListener("click", function () {
+		let image = questions[i].lastElementChild;
+		image.src = "../assets/images/icon-minus.svg";
+	});
 }
