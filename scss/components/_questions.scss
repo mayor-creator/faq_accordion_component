@@ -3,7 +3,7 @@
 hr {
   height: 0.0625rem;
   align-self: stretch;
-  background-color: var(--color-lightPink);
+  border: 1px solid var(--color-lightPink);
 }
 
 p {
@@ -33,7 +33,6 @@ h2:hover {
   gap: 1.5rem;
   align-self: stretch;
 }
-
 
 .question {
   display: flex;
