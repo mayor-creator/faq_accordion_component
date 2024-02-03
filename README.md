@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Faq accordion solution](https://www.frontendmentor.io/solutions/faq-accordion-F7WrgkOtcd)
+- Live Site URL: [Faq accordion live](https://faq-accordion-component-topaz.vercel.app/)
 
 ## My process
 
