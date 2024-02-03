@@ -14,9 +14,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -31,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Faq Accordion Screenshot](./faqAccordionCardMobile.png)
 
 ### Links
 
@@ -45,34 +42,35 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-	color: papayawhip;
-}
-```
-
 ```js
-const proudOfThisFunc = () => {
-	console.log("🎉");
+let setDefault = () => {
+	for (let index = 0; index < active.length; index++) {
+		active[index].style.display = "none";
+		// set the image location source
+		let imageId = active[index].previousElementSibling.lastElementChild;
+		imageId.src = "../assets/images/icon-plus.svg";
+	}
 };
 ```
 
 ### Continued development
 
+- Responsive design
+- JS functions
+
 ### Useful resources
+
+- [How TO - Style HR (Horizontal Ruler/Line)](https://www.w3schools.com/howto/howto_css_style_hr.asp) - The example helped me to understand how to apply border to horizontal line.
+
+- [Display Property](https://css-tricks.com/almanac/properties/d/display/) - This is great article explain how various values of dislay works.
+
+- [JavaScript Siblings](https://www.javascripttutorial.net/javascript-dom/javascript-siblings/) - The article explains how javascript siblings works with examples.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Threads - [@yourusername](https://www.threads.com/yourusername)
-
-## Acknowledgments
+- Frontend Mentor - [@mayor-creator](https://www.frontendmentor.io/profile/mayor-creator)
+- Threads - [@mayor_creator](https://www.threads.net/@mayor_creator)
